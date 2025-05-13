@@ -12,9 +12,11 @@
   [![Fast Fourier transform using microphone in STM32f746g-DISCOVERY](https://i.imgur.com/eCPdes8.png)](https://www.youtube.com/watch?v=NJCQbo03_Y8)
 ## Environment
   - EVB:  STM32f746g-DISCOVERY    
-  - IDE:  keil5 with MXcube  
+  - IDE (Windows):  keil5 with MXcube
+  - Makefile (Linux)  
 ## How to use it?
-  - download keil and compiler project
+  - Windows: download keil and compiler project
+  - Linux: arm-none-eabi- compiler
   - load into the STM32f746g-DISCOVERY 
 ## Other
   The fft part is not accurate. If you want to use the suggested correction.
